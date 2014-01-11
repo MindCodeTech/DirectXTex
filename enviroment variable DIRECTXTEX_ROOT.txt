@@ -1,0 +1,1 @@
+DIRECTXTEX_ROOT = C:\your directory for\DirectXTex

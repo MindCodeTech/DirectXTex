@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d93d5a2f-6d5b-4eb0-b296-9dc049eba212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Compiled">
+      <UniqueIdentifier>{c113beb1-be43-4e61-a105-654b8bba45a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DDSTextureLoader">
+      <UniqueIdentifier>{4f3c39fc-2c55-4b99-8f80-ac0bed05e796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScreenGrab">
+      <UniqueIdentifier>{fab1749c-7c15-49b0-b78d-91103449e21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WICTextureLoader">
+      <UniqueIdentifier>{72927ac0-cd8c-407e-9dc3-d30f16b90f83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="..\..\DirectXTex\BC.h" />
+    <ClCompile Include="..\..\DirectXTex\BC.cpp" />
+    <ClCompile Include="..\..\DirectXTex\BC4BC5.cpp" />
+    <ClCompile Include="..\..\DirectXTex\BC6HBC7.cpp" />
+    <ClInclude Include="..\..\DirectXTex\filters.h" />
+    <CLInclude Include="..\..\DirectXTex\DirectXTex.h" />
+    <CLInclude Include="..\..\DirectXTex\DirectXTexp.h" />
+    <CLInclude Include="..\..\DirectXTex\DirectXTex.inl" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexCompress.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexConvert.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexD3D11.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexDDS.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexFlipRotate.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexImage.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexMipMaps.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexMisc.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexNormalMaps.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexPMAlpha.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexResize.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexTGA.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexUtil.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexWIC.cpp" />
+    <ClInclude Include="..\..\DirectXTex\BCDirectCompute.h" />
+    <ClCompile Include="..\..\DirectXTex\BCDirectCompute.cpp" />
+    <ClCompile Include="..\..\DirectXTex\DirectXTexCompressGPU.cpp" />
+    <ClInclude Include="..\..\DirectXTex\DirectXTexexp.h" />
+    <ClInclude Include="..\..\DirectXTex\DirectXTexvers.h" />
+    <ClInclude Include="..\..\DirectXTex\PlatformHelpers.h" />
+    <ClInclude Include="..\..\DirectXTex\typesexport.h" />
+    <ClInclude Include="..\..\DDSTextureLoader\DDSTextureLoader.h">
+      <Filter>DDSTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WICTextureLoader\WICTextureLoader.h">
+      <Filter>WICTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ScreenGrab\ScreenGrab.h">
+      <Filter>ScreenGrab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DirectXTex\pchtex.h" />
+    <CLInclude Include="..\..\DirectXTex\DDS.h">
+      <Filter>DDSTextureLoader</Filter>
+    </CLInclude>
+    <ClInclude Include="..\..\DirectXTex\scoped.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\DDSTextureLoader\DDSTextureLoader.cpp">
+      <Filter>DDSTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WICTextureLoader\WICTextureLoader.cpp">
+      <Filter>WICTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ScreenGrab\ScreenGrab.cpp">
+      <Filter>ScreenGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DirectXTex\pchtex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DirectXTex\Shaders\BC6HEncode.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\BC7Encode.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DirectXTex\Shaders\CompileShaders.cmd">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC6HEncode_EncodeBlockCS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC6HEncode_TryModeG10CS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC6HEncode_TryModeLE10CS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC7Encode_EncodeBlockCS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC7Encode_TryMode02CS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC7Encode_TryMode137CS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+    <None Include="..\..\DirectXTex\Shaders\Compiled\BC7Encode_TryMode456CS.inc">
+      <Filter>Shaders\Compiled</Filter>
+    </None>
+  </ItemGroup>
+</Project>
