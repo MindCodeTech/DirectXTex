@@ -13,10 +13,9 @@
 
 #define DXTEXLIB_VERSION_DATE "2013.11.19"
 
-// I have defined to version 8 in reference to windows 8 but we can change-it !!(I cant find info about DXTEX version)
-#define DXTEXLIB_VERSION "1.2.0"
-#define DXTEXLIB_VERNUM 0x1200
-#define DXTEXLIB_VER_MAJOR 1
+#define DXTEXLIB_VERSION "11.2.0"
+#define DXTEXLIB_VERNUM 0x2BC0
+#define DXTEXLIB_VER_MAJOR 11
 #define DXTEXLIB_VER_MINOR 2
 #define DXTEXLIB_VER_REVISION 0
 #define DXTEXLIB_VER_SUBREVISION 0
